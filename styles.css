@@ -1,1 +1,17 @@
 /* Пиши стили тут */
+.wrapper {
+    position: relative;
+}
+
+.container_empty {
+    position: absolute;
+}
+
+.container {
+    position: absolute;
+    visibility: hidden;
+}
+
+.container:has(.laststar:hover) {
+    visibility: visible;
+}
