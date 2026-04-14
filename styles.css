@@ -1,4 +1,3 @@
-/* Пиши стили тут */
 .wrapper {
     position: relative;
 }
@@ -9,9 +8,12 @@
 
 .container {
     position: absolute;
+}
+
+.container img {
     visibility: hidden;
 }
 
-.container:has(.laststar:hover) {
+.container:hover img {
     visibility: visible;
 }
